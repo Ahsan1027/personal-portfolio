@@ -3,7 +3,7 @@ import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Amazon (SP-APi & Ads-API)",
+    name: "Amazon (SP-API & Ads-API)",
     projects: 3,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
