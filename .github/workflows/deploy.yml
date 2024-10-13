@@ -7,12 +7,16 @@ on:
 
 jobs:
   build:
-    name: Build
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+
+      - name: Set up Git configuration
+        run: |
+          git config --global user.name "ahsan"
+          git config --global user.email "ahsan.khalid@qbatch.com"
 
       - name: Setup Node
         uses: actions/setup-node@v1
@@ -26,20 +30,19 @@ jobs:
         run: yarn build
 
       - name: Upload production-ready build files
-        uses: actions/upload-artifact@v3 # Updated to v3
+        uses: actions/upload-artifact@v3
         with:
           name: production-files
           path: ./dist
 
   deploy:
-    name: Deploy
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
 
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3 # Updated to v3
+        uses: actions/download-artifact@v3
         with:
           name: production-files
           path: ./dist
