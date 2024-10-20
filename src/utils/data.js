@@ -28,29 +28,29 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "MV-Essentials",
+    place: "Icer Brands",
     tenure: "Dec 2023 - Present",
+    role: "Shopify (JavaScript)",
+    detail:
+      "Integrated Shopify for multi-store order retrieval, storing daily orders as CSV files in Amazon S3, and enabling downloads via the frontend. Used MongoDB with cron jobs to sync records and maintain sales statistics.",
+  },
+  {
+    place: "MV-Essentials",
+    tenure: "Feb 2024 - Jul 2024",
     role: "AMZ SP-API (JavaScript)",
     detail:
       "Created a web application with a React.js frontend and Node.js backend, integrating Amazon SP-API and S3 for data management, while automating daily order retrieval and metrics tracking with cron jobs.",
   },
   {
     place: "Turner Publishing",
-    tenure: "Jan 2024 - Present",
+    tenure: "Dec 2023 - Mar 2024",
     role: "AMZ SP-API & AMZ Ads-API (JavaScript)",
     detail:
       "Developed a web application featuring a React.js frontend and a Node.js backend, utilizing the Amazon Ads API for calculating sales rankings to help users identify their best-selling items. Employed cron jobs to automate order fetching and analyze key performance indicators.",
   },
   {
-    place: "Icer Brands",
-    tenure: "Feb 2024 - Jul 2024",
-    role: "Shopify (JavaScript)",
-    detail:
-      "Integrated Shopify for multi-store order retrieval, storing daily orders as CSV files in Amazon S3, and enabling downloads via the frontend. Used MongoDB with cron jobs to sync records and maintain sales statistics.",
-  },
-  {
     place: "Hiral Custom",
-    tenure: "Dec 2023 - Mar 2024",
+    tenure: "Jan 2024 - April 2024",
     role: "ShipStation (Python)",
     detail:
       "Developed a custom art design platform in Python for client orders, utilizing Dagster for data orchestration. Integrated Amazon S3 for secure storage and ShipStation API for order management, while employing SQL for efficient data handling.",
