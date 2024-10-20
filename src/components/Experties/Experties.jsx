@@ -43,7 +43,7 @@ const Experties = () => {
 
                     <div className={`flexCenter ${css.stats}`} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         <div className={`flexCenter ${css.stat}`}>
-                            <span className='primaryText'>5+</span>
+                            <span className='primaryText'>3+</span>
                             <span className='secondaryText'>Projects Completed</span>
                         </div>
                     </div>
