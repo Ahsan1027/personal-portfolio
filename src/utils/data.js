@@ -29,7 +29,7 @@ export const WhatDoIHelp = [
 export const workExp = [
   {
     place: "Icer Brands",
-    tenure: "Dec 2023 - Present",
+    tenure: "Dec 2023 - Nov 2024",
     role: "Shopify (JavaScript)",
     detail:
       "Integrated Shopify for multi-store order retrieval, storing daily orders as CSV files in Amazon S3, and enabling downloads via the frontend. Used MongoDB with cron jobs to sync records and maintain sales statistics.",
@@ -47,6 +47,13 @@ export const workExp = [
     role: "AMZ SP-API & AMZ Ads-API (JavaScript)",
     detail:
       "Developed a web application featuring a React.js frontend and a Node.js backend, utilizing the Amazon Ads API for calculating sales rankings to help users identify their best-selling items. Employed cron jobs to automate order fetching and analyze key performance indicators.",
+  },
+  {
+    place: "Lucy",
+    tenure: "Aug 2024 - Present",
+    role: "AMZ SP-API (Ruby On Rails)",
+    detail:
+      "Developed a Ruby on Rails application with React, integrating Amazon SP-API for real-time product monitoring, Devise for authentication, PostgreSQL for data, Amazon S3 for storage, and Sockets for real-time notifications."
   },
   {
     place: "Hiral Custom",

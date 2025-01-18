@@ -40,6 +40,7 @@ const Work = () => {
             <div><div className={css.circle} style={{ background: "#F2704E" }}></div></div>
             <div><div className={css.circle} style={{ background: "#EEC048" }}></div></div>
             <div><div className={css.circle} style={{ background: "#48ee9e" }}></div></div>
+            <div><div className={css.circle} style={{ background: "#5348ee" }}></div></div>
           </motion.div>
 
         </div>
