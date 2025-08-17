@@ -52,7 +52,7 @@ export const workExp = [
     place: "Lucy",
     tenure: "Aug 2024 - Present",
     role: "AMZ SP-API + OpenAI (Ruby On Rails)",
-    detail: "Developed a full-stack Rails and React application for real-time monitoring of Amazon listings using SP-API. Implemented Devise for authentication, PostgreSQL for data storage, S3 for assets, and WebSockets for live notifications. Integrated OpenAI for product content comparison and AWS Rekognition for image analysis."
+    detail: "Developed a full stack Rails and React application for real-time monitoring of Amazon listings using SP-API. Implemented Devise for authentication, PostgreSQL for data storage, S3 for assets, and WebSockets for live notifications. Integrated OpenAI for product content comparison and AWS Rekognition for image analysis."
   },
   {
     place: "Hiral Custom",
