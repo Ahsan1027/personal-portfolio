@@ -1,32 +1,66 @@
-import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { CiMobile1 } from "react-icons/ci";
-import { MdWorkspacesOutline } from "react-icons/md";
+import {
+  HiOutlineDesktopComputer,
+  HiOutlineServer,
+  HiOutlineCloud,
+  HiOutlineShoppingCart,
+  HiOutlineSparkles,
+} from "react-icons/hi";
+
+// Expertise areas shown in the "Services" section, aligned with the CV.
 export const projectExperience = [
   {
-    name: "Amazon (SP-API & Ads-API)",
-    projects: 3,
+    name: "Frontend Development",
+    stack: "React · Next.js · Vue.js · TypeScript",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Shopify",
-    projects: 1,
-    icon: CiMobile1,
+    name: "Backend & APIs",
+    stack: "Node.js · Nest.js · Spring Boot · Django",
+    icon: HiOutlineServer,
+    bg: "#F26440",
+  },
+  {
+    name: "Cloud & DevOps",
+    stack: "AWS · Docker · CI/CD",
+    icon: HiOutlineCloud,
     bg: "#EEC048",
   },
   {
-    name: "ShipStation",
-    projects: 1,
-    icon: MdWorkspacesOutline,
-    bg: "#F26440",
+    name: "E-commerce Integrations",
+    stack: "Amazon SP-API & Ads-API · Shopify",
+    icon: HiOutlineShoppingCart,
+    bg: "#5348ee",
+  },
+  {
+    name: "AI Integration",
+    stack: "Claude · Cursor · RAG",
+    icon: HiOutlineSparkles,
+    bg: "#2A9D8F",
   },
 ];
 
 export const WhatDoIHelp = [
-  "I specialize in full stack development, creating scalable web applications and automating business processes. I am passionate about developing efficient solutions for e-commerce and delivering seamless user experiences across web platforms.",
+  "I'm a full stack developer with 5+ years of hands-on experience building high-performance, scalable web applications with React, Next.js, Vue, Node.js, Nest.js, Java/Spring Boot, Python and AWS.",
+  "I specialize in API architecture, cloud deployments and modern frontend development, with proven experience in AI integration (Claude, Cursor, RAG), Chrome extension development and data-driven systems.",
 ];
 
+// Most recent first (by end date).
 export const workExp = [
+  {
+    place: "Turner Publishing",
+    tenure: "Jan 2025 - Present",
+    role: "Senior Full Stack Developer",
+    detail:
+      "Developed responsive frontend interfaces with Next.js, React and TypeScript to improve content management and user workflows. Built and maintained scalable Node.js backend APIs for secure, efficient data handling, and deployed and managed applications on AWS for high availability, performance and scalability. Collaborated with cross-functional teams to deliver reliable, data-driven publishing solutions.",
+  },
+  {
+    place: "Lucy",
+    tenure: "May 2023 - Dec 2024",
+    role: "Senior Software Engineer",
+    detail:
+      "Built backend services in Python/Django to monitor and auto-correct Amazon product listings, with responsive Vue.js and Next.js dashboards for real-time alerts and manual workflows. Integrated APIs with Amazon Seller Central for reliable data synchronization, and optimized system performance and scalability for high-volume e-commerce operations.",
+  },
   {
     place: "Icer Brands",
     tenure: "Dec 2023 - Nov 2024",
@@ -42,24 +76,18 @@ export const workExp = [
       "Created a web application with a React.js frontend and Node.js backend, integrating Amazon SP-API and S3 for data management, while automating daily order retrieval and metrics tracking with cron jobs.",
   },
   {
-    place: "Turner Publishing",
-    tenure: "Dec 2023 - Mar 2024",
-    role: "AMZ SP-API & AMZ Ads-API (JavaScript)",
+    place: "Infinitive Labs Ltd",
+    tenure: "Jan 2022 - Apr 2023",
+    role: "Software Engineer",
     detail:
-      "Developed a web application featuring a React.js frontend and a Node.js backend, utilizing the Amazon Ads API for calculating sales rankings to help users identify their best-selling items. Employed cron jobs to automate order fetching and analyze key performance indicators.",
+      "Developed React and Next.js frontends integrated with Java/Spring Boot microservices (Spring Data JPA, Hibernate, Spring Security) through RESTful APIs. Implemented JWT-based authentication and role-based authorization, designed PostgreSQL and MongoDB databases, wrote unit and integration tests with JUnit and Mockito using Maven, and deployed containerized applications on AWS with Docker.",
   },
   {
-    place: "Lucy",
-    tenure: "Aug 2024 - Present",
-    role: "AMZ SP-API + OpenAI (Ruby On Rails)",
-    detail: "Developed a full stack Rails and React application for real-time monitoring of Amazon listings using SP-API. Implemented Devise for authentication, PostgreSQL for data storage, S3 for assets, and WebSockets for live notifications. Integrated OpenAI for product content comparison and AWS Rekognition for image analysis."
-  },
-  {
-    place: "Hiral Custom",
-    tenure: "Jan 2024 - April 2024",
-    role: "ShipStation (Python)",
+    place: "GovTech",
+    tenure: "May 2020 - Dec 2021",
+    role: "Software Developer",
     detail:
-      "Developed a custom art design platform in Python for client orders, utilizing Dagster for data orchestration. Integrated Amazon S3 for secure storage and ShipStation API for order management, while employing SQL for efficient data handling.",
+      "Built end-to-end features on the MERN stack, translating complex requirements into intuitive UI/UX flows for data-heavy web applications. Designed and implemented secure RESTful APIs with MySQL and Redis for efficient data storage and caching, and enhanced performance and user experience through continuous iteration and stakeholder collaboration.",
   },
 ];
 

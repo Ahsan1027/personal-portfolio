@@ -19,9 +19,9 @@ const Hero = () => {
             I'm Ahsan.
           </motion.span>
           <motion.span className="secondaryText" variants={fadeIn("left", "tween", 0.4, 1)}>
-            I am a Software Engineer and always
+            I am a Senior Full Stack Developer and
             <br />
-            love doing innovative things.{" "}
+            always love doing innovative things.{" "}
           </motion.span>
         </div>
 
@@ -38,7 +38,7 @@ const Hero = () => {
 
         <div className={css.lowerElements}>
           <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className={css.experience}>
-            <div className="primaryText">2 +</div>
+            <div className="primaryText">5 +</div>
             <div className="secondaryText">
               <div>Years of </div>
               <div>Experience</div>
@@ -47,7 +47,7 @@ const Hero = () => {
 
           <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
             <img src="./certificate.png" alt="" />
-            <span>FULL STACK DEVELOPER</span>
+            <span>SENIOR FULL STACK DEVELOPER</span>
             {/* <span>UI/UX DESIGNER</span> */}
           </motion.div>
         </div>

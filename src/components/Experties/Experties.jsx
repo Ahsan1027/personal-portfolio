@@ -25,9 +25,7 @@ const Experties = () => {
                                 </div>
                                 <div>
                                     <span>{exp.name}</span>
-                                    <span className='secondaryText'>
-                                        {exp.projects} {exp.projects > 1 ? 'Projects' : 'Project'}
-                                    </span>
+                                    <span className='secondaryText'>{exp.stack}</span>
                                 </div>
 
                             </motion.div>
